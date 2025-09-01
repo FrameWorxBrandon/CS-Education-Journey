@@ -15,25 +15,42 @@
       </div>
       <div>
         <label for="monthlyPrice">Monthly Price</label>
-        <input type="range" name="monthlyPrice" id="monthlyPrice" required />
+        <input
+          type="range"
+          name="monthlyPrice"
+          id="monthlyPrice"
+          min="750"
+          max="3500"
+          step="50"
+        />
       </div>
       <div>
         <label for="numBedrooms">Bedrooms</label>
-        <input type="number" name="numBedrooms" id="numBedrooms" required />
+        <input
+          type="number"
+          name="numBedrooms"
+          id="numBedrooms"
+          value="3"
+          required
+        />
       </div>
       <div>
         <label for="numBathrooms">Bathrooms</label>
-        <input type="number" name="numBathrooms" id="numBathrooms" required />
+        <input type="number" name="numBathrooms" id="numBathrooms" value="2" />
       </div>
       <div>
-        <label for="pets">Pets</label>
-        <input type="checkbox" id="pets" name="pets" />
+        <label for="pets"
+          >Pets
+          <input type="checkbox" id="pets" name="pets" />
+        </label>
       </div>
       <div>
         <label for="date">Date Available</label>
-        <input type="date" id="date" name="date" required />
+        <input type="date" id="date" name="date" />
       </div>
-      <input type="submit" />
+      <div>
+        <input type="submit" />
+      </div>
     </form>
   </body>
 </html>
