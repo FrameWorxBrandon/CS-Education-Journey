@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #cfcfdb;
@@ -14,12 +20,23 @@ body {
 }
 
 .card {
+  font-size: 18px;
   background-color: white;
   width: 500px;
   padding: 20px;
   margin: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  margin: 10px 0px 20px 0px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.card a {
+  font-size: 14px;
 }
 
 .card.card-sporty {
