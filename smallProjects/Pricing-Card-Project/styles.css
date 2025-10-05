@@ -17,7 +17,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(237, 238, 247);
-    max-width: 65%;
+    max-width: 90%;
     border-radius: 10px;
     padding: 20px;
     margin-top: 100px;
@@ -153,4 +153,28 @@ ul li i {
     position: relative;
     left: -3px;
     top: -10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .list li {
+        font-size: 14px;
+    }
+    .card p:nth-of-type(1) {
+        margin: 0;
+        padding: 0;
+    }
+    .card p:nth-of-type(2) {
+        margin: 10px;
+    }
 }
